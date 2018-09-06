@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="pref_reminderToggle"
+        android:title="@string/enable_reminder"
+        android:summary="@string/enable_reminder_text"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:dependency="pref_reminderToggle"
+        android:key="pref_reminderVibrationToggle"
+        android:title="@string/vibrate_on_reminder"
+        android:summary="@string/vibrate_on_reminder_text"
+        android:defaultValue="true"
+        android:layout="@layout/preference_multiline"/>
+    <SwitchPreference
+        android:dependency="pref_reminderToggle"
+        android:key="pref_reminderSoundToggle"
+        android:title="@string/sound_on_reminder"
+        android:summary="@string/sound_on_reminder_text"
+        android:defaultValue="true"
+        android:layout="@layout/preference_multiline"/>
+    <SwitchPreference
+        android:key="pref_textToSpeechToggle"
+        android:title="@string/read_info"
+        android:summary="@string/read_info_text"
+        android:defaultValue="true"
+        android:layout="@layout/preference_multiline"/>
+</PreferenceScreen>

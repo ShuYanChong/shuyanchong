@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">MedFC for Patient</string>
+    <string name="account_type" translatable="false">com.example.reico_000.prescriptionreadernfc.account</string>
+    <string name="provider_authority" translatable="false">com.example.reico_000.prescriptionreadernfc.provider</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <string name="title_section0">Home</string>
+    <string name="title_section1">Scan Medication</string>
+    <string name="title_section2">Medication List</string>
+    <string name="title_section3">Prescription Date List</string>
+    <string name="title_section4">Symptoms History</string>
+    <string name="title_section5" translatable="false">Medication Adherence</string>
+    <string name="title_section6">Medication Use History</string>
+    <string name="title_section7">More Medication Info</string>
+    <string name="title_section8">Report Symptoms</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_example" translatable="false">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_legends">Legends</string>
+    <string name="action_legends2">Tips</string>
+    <string name="action_report">Report Symptoms</string>
+    <string name="medication_reminder">Medication Reminder</string>
+    <string name="logout_confirmation">Logout Confirmation</string>
+    <string name="logout_confirmation_text">Do you wish to logout?</string>
+    <string name="logout_success">Logout successful</string>
+    <string name="termsAndConds_title">Terms and Conditions</string>
+    <string name="medication_already_taken">Medication Already Taken</string>
+    <string name="medication_already_taken_text">You have already taken your medication for today</string>
+    <string name="medication_course_completed">Medication Course Completed</string>
+    <string name="medication_course_completed_text">Medication Consumption Completed&lt;br>Medication Deleted from Inventory&lt;br>Do you want to erase the NFC tag data?</string>
+    <string name="consumption_success">Consumption Successful!</string>
+    <string name="consumption_success_text">Medication Consumed!</string>
+    <string name="unit">\u0020unit</string>
+    <string name="to_go">\u0020to go</string>
+    <string name="error">Error</string>
+    <string name="error_text">Medication does not exist in Inventory</string>
+    <string name="error_text2">"Error: Please Scan Medication"</string>
+    <string name="delete_tag">Please scan the tag to be deleted</string>
+    <string name="erasing_tag1">Erasing tag finished</string>
+    <string name="erasing_tag2">Erasing tag data finished, you can now remove the tag</string>
+    <string name="cleared_tag1">NFC Tag Cleared</string>
+    <string name="cleared_tag2">The data inside NFC tag has been cleared</string>
+    <string name="unwritable_tag">Tag is not writable</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_scanItem1" translatable="false">Scan Item 1</string>
+    <string name="action_scanItem2" translatable="false">Scan Item 2</string>
+    <string name="action_scanItem3" translatable="false">Scan Item 3</string>
+    <string name="action_showNotification">Show Notification</string>
+    <string name="action_eraseTagData">Erase Tag Data</string>
+    <string name="action_loadStubConsumption">Load Stub Consumption</string>
+    <string name="action_termsAndConds">Terms And Conditions</string>
+    <string name="action_getConsumption1">Get Consumption 1</string>
+    <string name="action_getConsumption2">Get Consumption 2</string>
+    <string name="action_changeReminderTiming">Change Reminder Timing</string>
+    <string name="action_stopTakingMedicine">Stop Taking Medication</string>
+    <string name="action_showMoreInfo">Show More Info</string>
+    <string name="action_scanMedication">Scan Medication</string>
+    <string name="action_viewOrEditRemarks">View/Edit Remarks</string>
+
+    <!-- LOGIN and REGISTER -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout" translatable="false">LOGOUT</string>
+    <string name="name" translatable="false">Fullname</string>
+
+    <!--Report Symptoms-->
+    <string name="symptom1">Nausea and Vomiting</string>
+    <string name="symptom2">Diarrhea</string>
+    <string name="symptom3">Constipation</string>
+    <string name="severitylevel1">Mild</string>
+    <string name="severitylevel2">Moderate</string>
+    <string name="severitylevel3">Severe</string>
+    <string name="severitylevel4">Very Severe</string>
+    <string name="hint_symptoms">Symptoms to Report</string>
+    <string name="comment">Comment: </string>
+    <string name="commonsymptom"><b>Common Symptoms</b></string>
+    <string name="severitylevel"><b>Severity Levels</b></string>
+    <string name="submit">Submit</string>
+
+    <!--PDF More Info-->
+
+    <!--A-->
+    <string name="medicine_A1" translatable="false"><u>Abiraterone</u></string>
+    <string name="medicine_A2" translatable="false"><u>Afatinib</u></string>
+    <string name="medicine_A3" translatable="false"><u>Alendronate</u></string>
+    <string name="medicine_A4" translatable="false"><u>Alitretinoin</u></string>
+    <string name="medicine_A5" translatable="false"><u>Anastrozole</u></string>
+
+    <string name="url_A1" translatable="false">https://onco-informatics.com/medfc/pdf/Abiraterone%20250mg.pdf</string>
+    <string name="url_A2" translatable="false">https://onco-informatics.com/medfc/pdf/Afatinib%2030mg.pdf</string>
+    <string name="url_A3" translatable="false">https://onco-informatics.com/medfc/pdf/Alendronate.pdf</string>
+    <string name="url_A4" translatable="false">https://onco-informatics.com/medfc/pdf/Alitretinoin.pdf</string>
+    <string name="url_A5" translatable="false">https://onco-informatics.com/medfc/pdf/Anastrozole%201mg.pdf</string>
+
+
+    <!--B-->
+    <string name="medicine_B1" translatable="false"><u>Bicalutamide</u></string>
+
+    <string name="url_B1" translatable="false">https://onco-informatics.com/medfc/pdf/Bicalutamide%2050mg.pdf</string>
+
+    <!--C-->
+    <string name="medicine_C1" translatable="false"><u>Capecitabine</u></string>
+    <string name="medicine_C2" translatable="false"><u>Ceritinib</u></string>
+    <string name="medicine_C3" translatable="false"><u>Chlorambucil</u></string>
+    <string name="medicine_C4" translatable="false"><u>Crizotinib</u></string>
+    <string name="medicine_C5" translatable="false"><u>Cyclophosphamide</u></string>
+
+    <string name="url_C1" translatable="false">https://onco-informatics.com/medfc/pdf/Capecitabine.pdf</string>
+    <string name="url_C2" translatable="false">https://onco-informatics.com/medfc/pdf/Ceritinib%20150mg</string>
+    <string name="url_C3" translatable="false">https://onco-informatics.com/medfc/pdf/Chlorambucil.pdf</string>
+    <string name="url_C4" translatable="false">https://onco-informatics.com/medfc/pdf/Crizotinib%20200mg.pdf</string>
+    <string name="url_C5" translatable="false">https://onco-informatics.com/medfc/pdf/Cyclophosphamide.pdf</string>
+
+    <!--D-->
+    <string name="medicine_D1" translatable="false"><u>Degarelix</u></string>
+    <string name="medicine_D2" translatable="false"><u>Dexamethasone Mouthwash</u></string>
+
+    <string name="url_D1" translatable="false">https://onco-informatics.com/medfc/pdf/Degarelix.pdf</string>
+    <string name="url_D2" translatable="false">https://onco-informatics.com/medfc/pdf/DexamethasoneMouthwash.pdf</string>
+
+    <!--E-->
+    <string name="medicine_E1" translatable="false"><u>Enoxaparin</u></string>
+    <string name="medicine_E2" translatable="false"><u>Enzalutamide</u></string>
+    <string name="medicine_E3" translatable="false"><u>Erlotinib</u></string>
+    <string name="medicine_E4" translatable="false"><u>Erythropoietin</u></string>
+    <string name="medicine_E5" translatable="false"><u>Estramustine</u></string>
+    <string name="medicine_E6" translatable="false"><u>Etoposide</u></string>
+    <string name="medicine_E7" translatable="false"><u>Everolimus</u></string>
+    <string name="medicine_E8" translatable="false"><u>Exemestane</u></string>
+
+    <string name="url_E1" translatable="false">https://onco-informatics.com/medfc/pdf/Enoxaparin.pdf</string>
+    <string name="url_E2" translatable="false">https://onco-informatics.com/medfc/pdf/Enzalutamide%20100mg.pdf</string>
+    <string name="url_E3" translatable="false">https://onco-informatics.com/medfc/pdf/Erlotinib%20150mg.pdf</string>
+    <string name="url_E4" translatable="false">https://onco-informatics.com/medfc/pdf/Erythropoietin.pdf</string>
+    <string name="url_E5" translatable="false">https://onco-informatics.com/medfc/pdf/Estramustine.pdf</string>
+    <string name="url_E6" translatable="false">https://onco-informatics.com/medfc/pdf/EtoposideOral.pdf</string>
+    <string name="url_E7" translatable="false">https://onco-informatics.com/medfc/pdf/Everolimus%205mg.pdf</string>
+    <string name="url_E8" translatable="false">https://onco-informatics.com/medfc/pdf/Exemestane%2025mg.pdf</string>
+
+
+    <!--F-->
+    <string name="medicine_F1" translatable="false"><u>Fentanyl Patch</u></string>
+    <string name="medicine_F2" translatable="false"><u>Filgrastim</u></string>
+    <string name="medicine_F3" translatable="false"><u>Finasteride</u></string>
+    <string name="medicine_F4" translatable="false"><u>Fludarabine</u></string>
+    <string name="medicine_F5" translatable="false"><u>Fluorouracil</u></string>
+    <string name="medicine_F6" translatable="false"><u>Flutamide</u></string>
+
+    <string name="url_F1" translatable="false">https://onco-informatics.com/medfc/pdf/FentanylPatchCombined.pdf</string>
+    <string name="url_F2" translatable="false">https://onco-informatics.com/medfc/pdf/Filgrastim.pdf</string>
+    <string name="url_F3" translatable="false">https://onco-informatics.com/medfc/pdf/Finasteride.pdf</string>
+    <string name="url_F4" translatable="false">https://onco-informatics.com/medfc/pdf/Fludarabine.pdf</string>
+    <string name="url_F5" translatable="false">https://onco-informatics.com/medfc/pdf/Fluorouracil.pdf</string>
+    <string name="url_F6" translatable="false">https://onco-informatics.com/medfc/pdf/Flutamide.pdf</string>
+
+    <!--G-->
+    <string name="medicine_G1" translatable="false"><u>Gefitinib</u></string>
+    <string name="medicine_G2" translatable="false"><u>Gemcitabine</u></string>
+    <string name="medicine_G3" translatable="false"><u>Gemtuzumab Ozogamicin</u></string>
+    <string name="medicine_G4" translatable="false"><u>Goserelin</u></string>
+
+    <string name="url_G1" translatable="false">https://onco-informatics.com/medfc/pdf/Gefitinib%20250mg.pdf</string>
+    <string name="url_G2" translatable="false">https://onco-informatics.com/medfc/pdf/Gemcitabine.pdf</string>
+    <string name="url_G3" translatable="false">https://onco-informatics.com/medfc/pdf/GemtuzumabOzogamicin.pdf</string>
+    <string name="url_G4" translatable="false">https://onco-informatics.com/medfc/pdf/Goserelin.pdf</string>
+
+    <!--H-->
+    <string name="medicine_H1" translatable="false"><u>Hydroxyurea</u></string>
+
+    <string name="url_H1" translatable="false">https://onco-informatics.com/medfc/pdf/Hydroxyurea.pdf</string>
+
+    <!--I-->
+    <string name="medicine_I1" translatable="false"><u>Ibandronate</u></string>
+    <string name="medicine_I2" translatable="false"><u>Ibrutinib</u></string>
+    <string name="medicine_I3" translatable="false"><u>Idarubicin</u></string>
+    <string name="medicine_I4" translatable="false"><u>Ifosfamide</u></string>
+    <string name="medicine_I5" translatable="false"><u>Imatinib</u></string>
+    <string name="medicine_I6" translatable="false"><u>Interferon</u></string>
+    <string name="medicine_I7" translatable="false"><u>Irinotecan</u></string>
+
+    <string name="url_I1" translatable="false">https://onco-informatics.com/medfc/pdf/Ibandronate%2050mg.pdf</string>
+    <string name="url_I2" translatable="false">https://onco-informatics.com/medfc/pdf/Ibrutinib%20140mg.pdf</string>
+    <string name="url_I3" translatable="false">https://onco-informatics.com/medfc/pdf/Idarubicin.pdf</string>
+    <string name="url_I4" translatable="false">https://onco-informatics.com/medfc/pdf/Ifosfamide.pdf</string>
+    <string name="url_I5" translatable="false">https://onco-informatics.com/medfc/pdf/Imatinib%20100mg.pdf</string>
+    <string name="url_I6" translatable="false">https://onco-informatics.com/medfc/pdf/Interferon.pdf</string>
+    <string name="url_I7" translatable="false">https://onco-informatics.com/medfc/pdf/Irinotecan.pdf</string>
+
+    <!--L-->
+    <string name="medicine_L1" translatable="false"><u>Lamivudine</u></string>
+    <string name="medicine_L2" translatable="false"><u>Lapatinib</u></string>
+    <string name="medicine_L3" translatable="false"><u>Lenvatinib</u></string>
+    <string name="medicine_L4" translatable="false"><u>Letrozole</u></string>
+    <string name="medicine_L5" translatable="false"><u>Leuprolide</u></string>
+    <string name="medicine_L6" translatable="false"><u>Levothyroxine</u></string>
+    <string name="medicine_L7" translatable="false"><u>Lomustine</u></string>
+
+    <string name="url_L1" translatable="false">https://onco-informatics.com/medfc/pdf/Lamivudine.pdf</string>
+    <string name="url_L2" translatable="false">https://onco-informatics.com/medfc/pdf/Lapatinib%20250mg.pdf</string>
+    <string name="url_L3" translatable="false">https://onco-informatics.com/medfc/pdf/Lenvatinib%2010mg.pdf</string>
+    <string name="url_L4" translatable="false">https://onco-informatics.com/medfc/pdf/Letrozole%202.5mg.pdf</string>
+    <string name="url_L5" translatable="false">https://onco-informatics.com/medfc/pdf/Leuprolide.pdf</string>
+    <string name="url_L6" translatable="false">https://onco-informatics.com/medfc/pdf/Levothyroxine.pdf</string>
+    <string name="url_L7" translatable="false">https://onco-informatics.com/medfc/pdf/Lomustine.pdf</string>
+
+    <!--M-->
+    <string name="medicine_M1" translatable="false"><u>Mechlorethamine</u></string>
+    <string name="medicine_M2" translatable="false"><u>Megestrol</u></string>
+    <string name="medicine_M3" translatable="false"><u>Melphalan</u></string>
+    <string name="medicine_M4" translatable="false"><u>Mercaptopurine</u></string>
+    <string name="medicine_M5" translatable="false"><u>Methotrexate</u></string>
+    <string name="medicine_M6" translatable="false"><u>Mifepristone</u></string>
+    <string name="medicine_M7" translatable="false"><u>Miltefosine</u></string>
+    <string name="medicine_M8" translatable="false"><u>Mitomycin</u></string>
+    <string name="medicine_M9" translatable="false"><u>Mitotane</u></string>
+    <string name="medicine_M10" translatable="false"><u>Mitoxantrone</u></string>
+    <string name="medicine_M11" translatable="false"><u>Morphine</u></string>
+
+    <string name="url_M1" translatable="false">https://onco-informatics.com/medfc/pdf/Mechlorethamine.pdf</string>
+    <string name="url_M2" translatable="false">https://onco-informatics.com/medfc/pdf/Megestrol%20160mg.pdf</string>
+    <string name="url_M3" translatable="false">https://onco-informatics.com/medfc/pdf/Melphalan%202mg.pdf</string>
+    <string name="url_M4" translatable="false">https://onco-informatics.com/medfc/pdf/Mercaptopurine.pdf</string>
+    <string name="url_M5" translatable="false">https://onco-informatics.com/medfc/pdf/MethotrexateOral.pdf</string>
+    <string name="url_M6" translatable="false">https://onco-informatics.com/medfc/pdf/Mifepristone.pdf</string>
+    <string name="url_M7" translatable="false">https://onco-informatics.com/medfc/pdf/Miltefosine.pdf</string>
+    <string name="url_M8" translatable="false">https://onco-informatics.com/medfc/pdf/Mitomycin.pdf</string>
+    <string name="url_M9" translatable="false">https://onco-informatics.com/medfc/pdf/Mitotane%20500mg.pdf</string>
+    <string name="url_M10" translatable="false">https://onco-informatics.com/medfc/pdf/Mitoxantrone.pdf</string>
+    <string name="url_M11" translatable="false">https://onco-informatics.com/medfc/pdf/Morphine.pdf</string>
+
+    <!--N-->
+    <string name="medicine_N1" translatable="false"><u>Nilutamide</u></string>
+
+    <string name="url_N1" translatable="false">https://onco-informatics.com/medfc/pdf/Nilutamide.pdf</string>
+
+
+    <!--O-->
+    <string name="medicine_O1" translatable="false"><u>Olaparib</u></string>
+    <string name="medicine_O2" translatable="false"><u>Osimertinib</u></string>
+
+    <string name="url_O1" translatable="false">https://onco-informatics.com/medfc/pdf/Olaparib%2050mg.pdf</string>
+    <string name="url_O2" translatable="false">https://onco-informatics.com/medfc/pdf/Osimertinib%2040mg.pdf</string>
+
+    <!--P-->
+    <string name="medicine_P1" translatable="false"><u>Paclitaxel</u></string>
+    <string name="medicine_P2" translatable="false"><u>Palbociclib</u></string>
+    <string name="medicine_P3" translatable="false"><u>Pazopanib</u></string>
+    <string name="medicine_P4" translatable="false"><u>Pegaspargase</u></string>
+    <string name="medicine_P5" translatable="false"><u>Pegfilgrastim</u></string>
+    <string name="medicine_P6" translatable="false"><u>Pentostatin</u></string>
+    <string name="medicine_P7" translatable="false"><u>Pilocarpine</u></string>
+    <string name="medicine_P8" translatable="false"><u>Plicamycin</u></string>
+    <string name="medicine_P9" translatable="false"><u>Porfimer</u></string>
+    <string name="medicine_P10" translatable="false"><u>Procarbazine</u></string>
+
+    <string name="url_P1" translatable="false">https://onco-informatics.com/medfc/pdf/Paclitaxel.pdf</string>
+    <string name="url_P2" translatable="false">https://onco-informatics.com/medfc/pdf/Palbociclib%20100mg.pdf</string>
+    <string name="url_P3" translatable="false">https://onco-informatics.com/medfc/pdf/Pazopanib%20200mg.pdf</string>
+    <string name="url_P4" translatable="false">https://onco-informatics.com/medfc/pdf/Pegaspargase.pdf</string>
+    <string name="url_P5" translatable="false">https://onco-informatics.com/medfc/pdf/Pegfilgrastim.pdf</string>
+    <string name="url_P6" translatable="false">https://onco-informatics.com/medfc/pdf/Pentostatin.pdf</string>
+    <string name="url_P7" translatable="false">https://onco-informatics.com/medfc/pdf/Pilocarpine%205mg.pdf</string>
+    <string name="url_P8" translatable="false">https://onco-informatics.com/medfc/pdf/Plicamycin.pdf</string>
+    <string name="url_P9" translatable="false">https://onco-informatics.com/medfc/pdf/Porfimer.pdf</string>
+    <string name="url_P10" translatable="false">https://onco-informatics.com/medfc/pdf/Procarbazine.pdf</string>
+
+    <!--R-->
+    <string name="medicine_R1" translatable="false"><u>Regorafenib</u></string>
+    <string name="medicine_R2" translatable="false"><u>Rivaroxaban</u></string>
+
+    <string name="url_R1" translatable="false">https://onco-informatics.com/medfc/pdf/Regorafenib%2040mg.pdf</string>
+    <string name="url_R2" translatable="false">https://onco-informatics.com/medfc/pdf/Rivaroxaban%2015mg.pdf</string>
+
+    <!--S-->
+    <string name="medicine_S1" translatable="false"><u>Sirolimus</u></string>
+    <string name="medicine_S2" translatable="false"><u>Sorafenib</u></string>
+
+    <string name="url_S1" translatable="false">https://onco-informatics.com/medfc/pdf/Sirolimus%20200mg.pdf</string>
+    <string name="url_S2" translatable="false">https://onco-informatics.com/medfc/pdf/Sorafenib%20200mg.pdf</string>
+
+    <!--T-->
+    <string name="medicine_T1" translatable="false"><u>Tamoxifen</u></string>
+    <string name="medicine_T2" translatable="false"><u>Temozolomide</u></string>
+    <string name="medicine_T3" translatable="false"><u>Testolactone</u></string>
+    <string name="medicine_T4" translatable="false"><u>Thalidomide</u></string>
+    <string name="medicine_T5" translatable="false"><u>Thioguanine</u></string>
+    <string name="medicine_T6" translatable="false"><u>Thiotepa</u></string>
+    <string name="medicine_T7" translatable="false"><u>Topotecan</u></string>
+    <string name="medicine_T8" translatable="false"><u>Toremifene</u></string>
+    <string name="medicine_T9" translatable="false"><u>Trastuzumab</u></string>
+    <string name="medicine_T10" translatable="false"><u>Tretinoin</u></string>
+    <string name="medicine_T11" translatable="false"><u>Trimetrexate</u></string>
+    <string name="medicine_T12" translatable="false"><u>TS-One</u></string>
+
+    <string name="url_T1" translatable="false">https://onco-informatics.com/medfc/pdf/Tamoxifen.pdf</string>
+    <string name="url_T2" translatable="false">https://onco-informatics.com/medfc/pdf/Temozolomide%20100mg.pdf</string>
+    <string name="url_T3" translatable="false">https://onco-informatics.com/medfc/pdf/Testolactone.pdf</string>
+    <string name="url_T4" translatable="false">https://onco-informatics.com/medfc/pdf/Thalidomide%2050mg.pdf</string>
+    <string name="url_T5" translatable="false">https://onco-informatics.com/medfc/pdf/Tioguanine.pdf</string>
+    <string name="url_T6" translatable="false">https://onco-informatics.com/medfc/pdf/Thiotepa.pdf</string>
+    <string name="url_T7" translatable="false">https://onco-informatics.com/medfc/pdf/Topotecan.pdf</string>
+    <string name="url_T8" translatable="false">https://onco-informatics.com/medfc/pdf/Toremifene.pdf</string>
+    <string name="url_T9" translatable="false">https://onco-informatics.com/medfc/pdf/Trastuzumab.pdf</string>
+    <string name="url_T10" translatable="false">https://onco-informatics.com/medfc/pdf/Tretinoin.pdf</string>
+    <string name="url_T11" translatable="false">https://onco-informatics.com/medfc/pdf/Trimetrexate.pdf</string>
+    <string name="url_T12" translatable="false">https://onco-informatics.com/medfc/pdf/TS-ONE%2020mg.pdf</string>
+
+    <!--U-->
+    <string name="medicine_U1" translatable="false"><u>UFT</u></string>
+    <string name="medicine_U2" translatable="false"><u>Uracil Mustard</u></string>
+
+    <string name="url_U1" translatable="false">https://onco-informatics.com/medfc/pdf/UFT.pdf</string>
+    <string name="url_U2" translatable="false">https://onco-informatics.com/medfc/pdf/UracilMustard.pdf</string>
+
+    <!--V-->
+    <string name="medicine_V1" translatable="false"><u>Valrubicin</u></string>
+    <string name="medicine_V2" translatable="false"><u>Vinblastine</u></string>
+    <string name="medicine_V3" translatable="false"><u>Vincristine</u></string>
+    <string name="medicine_V4" translatable="false"><u>Vinorelbine</u></string>
+
+    <string name="url_V1" translatable="false">https://onco-informatics.com/medfc/pdf/Valrubicin.pdf</string>
+    <string name="url_V2" translatable="false">https://onco-informatics.com/medfc/pdf/Vinblastine.pdf</string>
+    <string name="url_V3" translatable="false">https://onco-informatics.com/medfc/pdf/Vincristine.pdf</string>
+    <string name="url_V4" translatable="false">https://onco-informatics.com/medfc/pdf/Vinorelbine%2020mg.pdf</string>
+
+    <!--W-->
+    <string name="medicine_W1" translatable="false"><u>Warfarin</u></string>
+
+    <string name="url_W1" translatable="false">https://onco-informatics.com/medfc/pdf/Warfarin.pdf</string>
+
+    <!--Toast-->
+    <string name="nfc_enabled">NFC is enabled.</string>
+    <string name="nfc_disabled">NFC is disabled. Please turn on NFC.</string>
+    <string name="nfc_unavailable">This device does not support NFC.</string>
+    <string name="tts_unavailable">This device does not support TTS.</string>
+    <string name="deplete_1">\u0020is depleted. Please refill this medication.</string>
+    <string name="deplete_2">\u0020will be depleted in\u0020</string>
+    <string name="deplete_3">\u0020day. Please refill this medication.</string>
+    <string name="deplete_4">\u0020days. Please refill this medication.</string>
+    <string name="medication_refill_reminder">Medications Refill Reminder</string>
+    <string name="delete_medication1">Delete Medication?</string>
+    <string name="delete_medication2">Delete\u0020</string>
+    <string name="delete_medication3">\u0020has been deleted.</string>
+
+    <!--General-->
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--Presdatelist-->
+    <string name="generic_name2">Generic Name</string>
+    <string name="brand_name2">Brand Name</string>
+    <string name="prescribed_on">Prescribed On</string>
+
+    <!--Reportlist-->
+    <string name="report">Report</string>
+    <string name="reported_on">Reported On</string>
+
+    <!--MedicationHistorylist-->
+    <string name="medication_name1">Medication Name</string>
+    <string name="medication_name2">Consumed On</string>
+
+    <!--preference-->
+    <string name="enable_reminder">Enable reminder</string>
+    <string name="enable_reminder_text">Turning this off will disable the medication consumption reminder</string>
+    <string name="vibrate_on_reminder">Vibrate the phone when reminder pops up</string>
+    <string name="vibrate_on_reminder_text">Turning this off will cause the phone to not vibrate when the reminder pops up</string>
+    <string name="sound_on_reminder">Play a sound when reminder pops up</string>
+    <string name="sound_on_reminder_text">Turning this off will cause the phone to not play any sound when the reminder pops up</string>
+    <string name="read_info">Read out medication info</string>
+    <string name="read_info_text">Reads out the medication info when tapping a tag</string>
+
+    <!--consumption_time_picker-->
+    <string name="change_timing">Change Timing</string>
+
+    <!--toast-->
+    <string name="tag_detected">Tag detected.</string>
+    <string name="consumption_submitted">Consumption submitted.</string>
+    <string name="report_submitted">Report submitted.</string>
+    <string name="press_back">Press back to exit.</string>
+    <string name="tag_empty">The tag is empty.</string>
+
+
+    <!--notification-->
+    <string name="medications_reminder">Medications Reminder</string>
+    <string name="snooze">Snooze 15 mins</string>
+    <string name="remember_to_take">Remember to take the following medications:</string>
+    <string name="late_medicine">For these following medications, you have missed the dose of your previous medication. If you are near the next dose of your medication, skip the previous dose and consume your next dose instead.</string>
+
+
+    <string name="termsAndConds" translatable="false">&lt;b>General Information&lt;/b> &lt;br>The MedFC app project is a research collaboration between the Departments of Pharmacy and Electrical &amp; Computer Engineering, National University of Singapore. Please visit the ‘About Us’ section on the &lt;a href=https://www.onco-informatics.com/medfc/index.php> MedFC website&lt;/a> for details of the research team.  &lt;br>&lt;br>By using this product, you acknowledge the acceptance of the following terms and conditions, including the restrictions, disclaimers and limitations. You agree that we are not responsible for the results of your decisions resulting from the use of the product. This includes, but is not limited to, your choice of whether to seek or not to seek professional medical care, specific medical treatments and/or drug therapy.  &lt;br>&lt;br>&lt;b>About MedFC app&lt;/b> &lt;br>MedFC is a smartphone app intended for patients with chronic medical conditions and/or their caregivers. The purpose of the app is to help patients manage their medications easily through monitoring of their medication adherence patterns and clinical outcomes. The app provides a variety of functionalities including medication reminders, source of medication information, recording of symptoms related to medication side effects or disease condition, and a means for tracking medication taking patterns. This app also allows healthcare providers to monitor their patients’ medication adherence patterns through a clinician interface.  &lt;br>&lt;br>The MedFC app is intended to complement patients’ current methods of monitoring medication adherence. Patients should not and must not solely rely on the app for taking their medications on time. In cases where any hardware or software on the user’s device prevents the app from operating as intended or is broken, or if the power is turned off, or if the app is not enabled, MedFC may not function as intended. As a patient user, you acknowledge that MedFC’s reminder system depends on the preferences that you make in the settings of the app and/or your smartphone, and information that you enter, if you choose to change the details of your medication schedule that is programed by your health professional.  &lt;br>&lt;br>The contents of the MedFC app are not intended to be a substitute for professional medical advice, diagnosis or treatment. Patients should always seek the advice of their physician, pharmacist or other qualified health provider with any questions they may have regarding their medications or medical condition. Every effort has been made to ensure that the app contains accurate and up-to- date medication information, but no guarantee is made to that effect. We are not responsible for any misinterpretation of medication information by the user. Additionally, the medication information contained herein may also be time sensitive. Reliance on any information accessed through the MedFC app is solely at the user’s own risk.  &lt;br>&lt;br>&lt;b>About the MedFC application&lt;/b> &lt;br>The MedFC application has three components: (1) clinician interface, (2) patient interface, (3) caregiver interface.  &lt;br>&lt;br>The clinician interface is intended for clinicians who are involved in the supply of medicines and provision of pharmaceutical care to patients. The interface enables the clinician to enter patient details including their names, the name and dosages of their medications and other medication-related information. This information will be utilized to encode a Near Field Communication (NFC) sticker that will be part of the labelling on the patient’s medication package. The clinician can also monitor the patient’s medication adherence patterns and reported symptoms. Information required during signup for access to this application includes, the user’s full name, NRIC/FIN, email address, and login password. The collected information is stored for as long as the user has access to the interface and can only be accessed by the MedFC Team, for the purpose of analysing user statistics. No information will be revealed to any third party for advertising or other purposes except those cases where we are obliged to reveal the information by a court order.  &lt;br>&lt;br>The patient web interface is designed as a convenient way for patients to monitor their medication adherence levels. The caregiver interface enables caregivers to track the medication adherence patterns of the patient they care for. The patient has to endorse the caregiver before access is granted, unless in exceptional cases.  &lt;br>&lt;br>&lt;b>Privacy Policy&lt;/b> &lt;br>Any personally identifiable information collected from the usage of the app remains highly confidential and will not be used for any other purpose besides facilitating the usage of the app. The app will access patient’s personal information entered in the clinician’s web interface. Personal information collected includes the user’s full name, and NRIC number. The details of the medications that the patient takes are also accessed. The app also collects symptom information that patients enter. The collected information is stored in the MedFC database for as long as the user has access to the app and can only be accessed by his/her healthcare professional, and the MedFC Team for the purpose of analysing user statistics. No information will be revealed to any third party for advertising or other purposes except those cases where we are obliged to reveal the information by a court order.  &lt;br>&lt;br>&lt;b>Advertising&lt;/b> &lt;br>The MedFC app is a non-commercial app developed by a collaboration between the Departments of Pharmacy and Electrical &amp; Computer Engineering, National University of Singapore. The app is not sponsored by any other organisation and is not funded by advertising. The MedFC team does not have any direct conflict of interest with any commercial organiszation or organiszations that may bias the information provided by the app.  &lt;br>&lt;br>The MedFC website does not intentionally use cookies. Cookies can be disabled from the settings menu of your Internet browser. (&lt;a href=http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies> Internet Explorer&lt;/a>, &lt;a href=https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences?redirectlocale=en-US&amp;redirectslug=Enabling+and+disabling+cookies> Firefox&lt;/a>, &lt;a href=http://support.apple.com/kb/HT1677>Safari&lt;/a>, &lt;a href=http://support.google.com/chrome/bin/answer.py?hl=en&amp;answer=95647> Google Chrome&lt;/a>)  &lt;br>&lt;br>&lt;b>User Risks&lt;/b> &lt;br>The absence of a warning for a given medication or combination of medications does not indicate that the medication or medication combination is safe, effective or appropriate for any given patient and should not be interpreted as such. By using the MedFC app and clinician interface, the user acknowledges that he/she has been made aware of the disclaimers in this agreement, including those which state that the app is not a substitute for professional advice, and that the MedFC team and their institutions make no warranty on the accuracy, validity, completeness or availability of the information cited in this app.  &lt;br>&lt;br>&lt;b>Contact us:&lt;/b> &lt;br>Please visit the ‘Contact Us’ section on the &lt;a href=https://www.onco-informatics.com/medfc/index.php#contactus> MedFC website&lt;/a>.</string>
+
+    <string name="legends_text">&lt;b>Per Dosage&lt;/b>&lt;br>Amount of medicine that you need to take every time &lt;br>&lt;b>Balance&lt;/b>&lt;br>The amount of medicine that you have left &lt;br>&lt;b>Consumption Time&lt;/b>&lt;br>The time when you are required to take your medication</string>
+
+
+    <string name="tips_text">Choose any common symptom applicable and its corresponding severity level. &lt;br>You may also enter other relevant symptoms or comments manually.</string>
+    <string name="patient_name">Patient Name:</string>
+    <string name="brand_name">Brand Name:</string>
+    <string name="generic_name">Generic Name:</string>
+    <string name="dosage_form">Dosage Form:</string>
+    <string name="per_dosage">Per Dosage:</string>
+    <string name="total_dosage">Balance:</string>
+    <string name="consumption_time">Consumption Time:</string>
+    <string name="frequency">Frequency:</string>
+    <string name="prescription_date">Prescription Date:</string>
+    <string name="indications">Indications:</string>
+    <string name="dosage">Dosage:</string>
+    <string name="administration">Administration:</string>
+    <string name="contraindications">Contraindications:</string>
+    <string name="special_precautions">Special Precautions:</string>
+    <string name="adverse_drug_reactions">Adverse Drug Reactions:</string>
+    <string name="drug_interactions">Drug Interactions:</string>
+    <string name="pregnancy_category">Pregnancy Category (US FDA):</string>
+    <string name="pdf_leaflet">PDF Leaflet:</string>
+    <string name="consume_medication">Consume Medications</string>
+    <string name="reset" translatable="false">Reset\nFields</string>
+    <string name="save" translatable="false">Save&lt;br>Medication</string>
+
+    <string name="scan_medicine">Scan Medication</string>
+    <string name="medication_list">Medication List</string>
+    <string name="report_symptom">Report Symptoms</string>
+    <string name="past_symptom_record">Symptoms History</string>
+    <string name="medication_use_record">Medication Use History</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+</resources>

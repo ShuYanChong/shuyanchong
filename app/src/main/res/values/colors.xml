@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_login">#2196F3</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="input_login">#2196F3</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHome">#C5CAE9</color>
+    <color name="colorPopUpMenu">#FFFFFF</color>
+    <color name="buttontype1">#F44336</color>
+    <color name="buttontype2">#9C27B0</color>
+    <color name="edittext1">#0040ff</color>
+    <color name="main_background">#e6faff</color>
+    <color name="PDFListText">#ff0000</color>
+    <color name="Separator">#c0c0c0</color>
+
+
+
+
+
+</resources>

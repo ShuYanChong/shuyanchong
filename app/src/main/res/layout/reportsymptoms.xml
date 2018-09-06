@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    android:padding="32dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/commonsymptom"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        >
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/symptom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symptom1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype1"/>
+
+        <RadioButton
+            android:id="@+id/symptom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symptom2"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype1"/>
+
+        <RadioButton
+            android:id="@+id/symptom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symptom3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype1"
+            />
+    </RadioGroup>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/severitylevel"
+        android:textColor="#000000"
+        android:textSize="28dp">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/severity1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/severitylevel1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype2"/>
+
+        <RadioButton
+            android:id="@+id/severity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/severitylevel2"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype2"/>
+
+        <RadioButton
+            android:id="@+id/severity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/severitylevel3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype2"/>
+
+        <RadioButton
+            android:id="@+id/severity4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/severitylevel4"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:buttonTint="@color/buttontype2"
+            />
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_symptoms"
+        android:backgroundTint="@color/edittext1"
+        android:paddingTop="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            />
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:text="Cancel"-->
+            <!--android:textAppearance="?android:textAppearanceMedium" />-->
+
+    </LinearLayout>
+</LinearLayout>

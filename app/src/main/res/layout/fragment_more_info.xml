@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/generic_name"
+            android:id="@+id/moreInfoTextView_GenericName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/generic_name"
+            android:id="@+id/moreInfo_GenericName"
+            android:layout_below="@+id/moreInfoTextView_GenericName"
+            android:layout_gravity="left|top"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/brand_name"
+            android:id="@+id/moreInfoTextView_BrandName"
+            android:layout_below="@+id/moreInfo_GenericName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/brand_name"
+            android:id="@+id/moreInfo_BrandName"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_below="@+id/moreInfoTextView_BrandName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/indications"
+            android:id="@+id/moreInfoTextView_Indications"
+            android:layout_below="@+id/moreInfo_BrandName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/indications"
+            android:id="@+id/moreInfo_Indications"
+            android:layout_below="@+id/moreInfoTextView_Indications" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dosage"
+            android:id="@+id/moreInfoTextView_Dosage"
+            android:layout_below="@+id/moreInfo_Indications"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dosage"
+            android:id="@+id/moreInfo_Dosage"
+            android:layout_below="@+id/moreInfoTextView_Dosage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/administration"
+            android:id="@+id/moreInfoTextView_Administration"
+            android:layout_below="@+id/moreInfo_Dosage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/administration"
+            android:id="@+id/moreInfo_Administration"
+            android:layout_below="@+id/moreInfoTextView_Administration" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/contraindications"
+            android:id="@+id/moreInfoTextView_Contraindications"
+            android:layout_below="@+id/moreInfo_Administration"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/contraindications"
+            android:id="@+id/moreInfo_Contraindications"
+            android:layout_below="@+id/moreInfoTextView_Contraindications" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/special_precautions"
+            android:id="@+id/moreInfoTextView_SpecialPrecautions"
+            android:layout_below="@+id/moreInfo_Contraindications"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/special_precautions"
+            android:id="@+id/moreInfo_SpecialPrecautions"
+            android:layout_below="@+id/moreInfoTextView_SpecialPrecautions" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/adverse_drug_reactions"
+            android:id="@+id/moreInfoTextView_AdverseDrugReactions"
+            android:layout_below="@+id/moreInfo_SpecialPrecautions"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/adverse_drug_reactions"
+            android:id="@+id/moreInfo_AdverseDrugReactions"
+            android:layout_below="@+id/moreInfoTextView_AdverseDrugReactions" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/drug_interactions"
+            android:id="@+id/moreInfoTextView_DrugInteractions"
+            android:layout_below="@+id/moreInfo_AdverseDrugReactions"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/drug_interactions"
+            android:id="@+id/moreInfo_DrugInteractions"
+            android:layout_below="@+id/moreInfoTextView_DrugInteractions" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pregnancy_category"
+            android:id="@+id/moreInfoTextView_PregnancyCategory"
+            android:layout_below="@+id/moreInfo_DrugInteractions"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pregnancy_category"
+            android:id="@+id/moreInfo_PregnancyCategory"
+            android:layout_below="@+id/moreInfoTextView_PregnancyCategory" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pdf_leaflet"
+            android:id="@+id/moreInfoTextView_PDFLeaflet"
+            android:layout_below="@+id/moreInfo_PregnancyCategory"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pdf_leaflet"
+            android:id="@+id/moreInfo_PDFLeaflet"
+            android:layout_below="@+id/moreInfoTextView_PDFLeaflet" />
+
+        <!--android:onClick="showPopup"-->
+    </RelativeLayout>
+</ScrollView>

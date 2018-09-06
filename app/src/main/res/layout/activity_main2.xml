@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorHome">
+
+        <Button
+            android:id="@+id/scanMedicine"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/reportSymptoms"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="93dp"
+            android:drawableTop="@drawable/ic_scan"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/scan_medicine"
+            android:textStyle="bold" />
+
+        <!--android:layout_alignBottom="@+id/trackMedicationUse"-->
+        <!--android:layout_alignStart="@+id/medicationList"-->
+        <!--android:layout_marginBottom="103dp"-->
+
+        <Button
+            android:id="@+id/medicationList"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:drawableTop="@drawable/ic_medicine_list"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/medication_list"
+            android:textStyle="bold" />
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginEnd="12dp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_toStartOf="@+id/symptomsReport"-->
+        <!--android:background="@drawable/mybuttons"-->
+
+
+        <Button
+            android:id="@+id/reportSymptoms"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/medicationList"
+            android:layout_marginTop="81dp"
+            android:drawableTop="@drawable/ic_sick"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/report_symptom"
+            android:textStyle="bold" />
+        <!--android:layout_alignBaseline="@+id/scanMedicine"-->
+        <!--android:layout_alignBottom="@+id/scanMedicine"-->
+        <!--android:layout_alignStart="@+id/medicationList"-->
+
+
+        <Button
+            android:id="@+id/pastSymptomRecord"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/reportSymptoms"
+            android:layout_marginTop="23dp"
+            android:drawableTop="@drawable/ic_report"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/past_symptom_record"
+            android:textStyle="bold" />
+        <!--android:layout_alignBottom="@+id/medicationList"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+
+
+        <Button
+            android:id="@+id/medicationUseRecord"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_alignTop="@+id/pastSymptomRecord"
+            android:layout_marginTop="77dp"
+            android:layout_toStartOf="@+id/pastSymptomRecord"
+            android:drawableTop="@drawable/ic_checklist"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/medication_use_record"
+            android:textStyle="bold" />
+
+        <!--android:layout_alignEnd="@+id/symptomsReport"-->
+        <!--android:layout_alignLeft="@id/symptomsReport"-->
+        <!--android:layout_alignRight="@+id/symptomsReport"-->
+        <!--android:layout_alignStart="@id/symptomsReport"-->
+        <!--android:layout_below="@id/symptomsReport"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginTop="16dp"-->
+
+
+
+    </RelativeLayout>
+

@@ -1,0 +1,1365 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.reico_000.prescriptionreadernfc.PDFInfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="A"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_A1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_A2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_A3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_A4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_A5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_A5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="B"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_B1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_B1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="C"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/medicine_C1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_C1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_C2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_C3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_C3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_C4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_C4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_C5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_C5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="D"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_D1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_D1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_D2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_D2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="E"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_E1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_E8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_E8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="F"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_F1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_F1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_F2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_F2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_F3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_F3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_F4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_F4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_F5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_F5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_F6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="G"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_G1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_G1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_G2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_G2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_G3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_G3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_G4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_G4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="H"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_H1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_H1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="I"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_I1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_I2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_I3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_I4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_I5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_I6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_I7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_I7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="L"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_L1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_L2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_L3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_L4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_L5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_L6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_L7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_L7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="M"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_M1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_M11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_M11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="N"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_N1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_N1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="O"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_O1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_O1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_O2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_O2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="P"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_P1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_P10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_P10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="R"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_R1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_R1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_R2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_R2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="S"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_S1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_S1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_S2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_S2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="T"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_T1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_T12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_T12"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+
+            <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="U"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_U1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_U1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_U2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_U2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="V"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_V1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_V1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_V2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_V2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_V3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_V3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <TextView
+                android:id="@+id/medicine_V4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_V4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/Separator" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="W"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicine_W1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/medicine_W1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/PDFListText"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
