@@ -6,6 +6,7 @@ The MedFC system consists of three components, namely the MedFC Web App, MedFC N
 
 ## MedFC Patient App
 • Users: Patients 
+
 • For Patients
 - To correctly identify and record the medication consumption information (i.e. dosage, time) via NFC by tapping phone onto NFC tags.
 - To correctly identify the medication via TTS as the medication and consumption information would be read aloud upon tapping of NFC tags.
