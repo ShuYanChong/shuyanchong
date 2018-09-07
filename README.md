@@ -4,7 +4,7 @@ A new mobile health (mHealth) / electronic health (eHealth) system, MedFC which 
 
 The MedFC system consists of three components, namely the MedFC Web App, MedFC NFC App and MedFC Patient App. The three components are interconnected with an online database, allowing these three Apps to have effective communication with each other. Therefore, MedFC shapes a closed loop feedback environment for patients, caregivers and clinicians to promote medication adherence. The fundamental responsibilities and functions of the three components are listed below. Only MedFC Patient App is attached with this GitHub link.
 
-## MedFC Patient App
+### MedFC Patient App
 • Users: Patients 
 
 • For Patients
