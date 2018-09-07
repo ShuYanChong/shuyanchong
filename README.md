@@ -14,13 +14,13 @@ The MedFC system consists of three components, namely the MedFC Web App, MedFC N
 - To provide effective channel for patients to report any side effect or symptom experienced to their clinicians.
 - To record and report the patients’ medication consumption information to the online database via internet connection.
 
-#### MedFC NFC App
+### MedFC NFC App
 • Users: Clinicians 
 
 • For Clinicians
 - To encode patient’s personal details and their medication information into the NFC tags, which would be given to the patients along with the medication package.
 
-#### MedFC Web App
+### MedFC Web App
 • Users: Clinicians, Patients and Caregivers 
 
 • For Clinicians
